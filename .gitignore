@@ -1,0 +1,45 @@
+# Rust-specific ignores
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Editor and IDE ignores
+.vscode/
+/.vscode/*
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.old
+
+# Logs and debugging files
+*.log
+*.log.*
+*.out
+*.pid
+*.gz
+*.stackdump
+*.trace
+
+# Miscellaneous
+*.class
+*.pyc
+*.jar
+*.war
+
+# Advent of Code structure-specific
+Day*/target/
+/Day*/.vscode/
+Day*/Cargo.lock
+Day*/.idea/

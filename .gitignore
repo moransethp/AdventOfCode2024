@@ -1,3 +1,4 @@
+
 # Rust-specific ignores
 /target/
 **/*.rs.bk
@@ -41,5 +42,7 @@ Desktop.ini
 # Advent of Code structure-specific
 Day*/target/
 /Day*/.vscode/
+/Day*/.vs/
+Day*/.gitignore/
 Day*/Cargo.lock
 Day*/.idea/
